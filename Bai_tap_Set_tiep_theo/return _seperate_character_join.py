@@ -1,0 +1,6 @@
+set1 = set(input("Nhap set1: ").split(" "))
+set2 = set(input("Nhap set2: ").split(" "))
+setsimilar = set1.intersection(set2)
+setseperate = set1.symmetric_difference(set2)
+print(setsimilar)
+print(setseperate)
